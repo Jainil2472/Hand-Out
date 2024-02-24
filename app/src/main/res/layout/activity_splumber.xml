@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumber"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Jain Plumbeing"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/p_vel"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.7/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : All type
+                           Repairment"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/p_call"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="175dp"
+                    android:text="Add : shop no 7, pramukh                        arcad Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mayur Plumb"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/p_pel"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.1/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : All type
+                           Repairment"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/p_call1"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="175dp"
+                    android:text="Add : shop no 101, Golden                        Arcade Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bharat Plumbing"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/p_bel"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.4/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : All type
+                           Repairment"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/p_call2"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="175dp"
+                    android:text="Add : shop no 11, Pancholi                        Arcade Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

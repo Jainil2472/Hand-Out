@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otp"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="270dp"
+        android:hint="        +91"
+        android:textStyle="bold"
+        android:background="@drawable/edit_shape"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/phone"
+        android:padding="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="20dp"
+        android:hint=" Mobile Number"
+        android:maxLength="10"
+        android:inputType="number"
+        android:background="@drawable/edit_shape"
+        android:textColor="@color/black">
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textSize="20dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/edit_shape"
+        android:text="Send Otp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="760dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edit_shape1"
+        android:text="Skip">
+    </Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flag"
+        android:layout_marginTop="461dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="350dp"
+        >
+
+    </ImageView>
+</RelativeLayout>

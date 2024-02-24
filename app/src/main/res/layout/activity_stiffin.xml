@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".S_tiffin_activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/t_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiffin Services"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/meena"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Meena Ben Tiffin"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.3/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Menu : 5Roti , 2subji(veg),
+                       Dal-Rice, Salad."
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/t_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/t_call"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Add : 213 Vijayvada Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/t_rajvadi"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Rajwadi Bhojnalay"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.8/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Menu : 6Roti , 4subji(veg),
+                       Dal-Rice, Salad, Butter Milk."
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/t_mobile1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/t_call1"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Add : 2 Square Complex Gandhinagar 382025"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/t_jaymataji"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Jay Mataji Tiffin"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.0/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Menu : 8Roti , 2subji(veg),
+                       Dal-Rice, Butter Milk."
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/t_mobile2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/t_call2"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Add : 11 Green Chowk Gandhinagar 382026"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/t_meal"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Isha Meal"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 3.8/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Menu : 8Roti , 1subji(veg),
+                       Dal-Rice, Butter Milk."
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/t_mobile3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/t_call3"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Add : 33  Silver Hub Gandhinagar 382021"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/t_tulsi"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tulsi Food Service"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.8/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Menu : 7Roti , 2subji(veg),
+                       Dal-Rice, Salad, Butter Milk."
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/t_mobile4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+                <Button
+                    android:id="@+id/t_call4"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="170dp"
+                    android:text="Add : 50 GH-5 Gandhinagar 382025"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

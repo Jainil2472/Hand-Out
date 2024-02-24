@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Verification code"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/i2"
+        android:layout_below="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:padding="13dp"
+        android:text="We have sent you a 4 digit verification code on">
+    </TextView>
+
+    <TextView
+        android:id="@+id/i3"
+        android:layout_below="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="100dp"
+        android:text="+91 9898147969"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/i4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="170dp"
+        android:background="@drawable/edit_shape"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="13dp"
+        android:textColor="@color/black"></EditText>
+
+    <TextView
+        android:id="@+id/i8"
+        android:layout_below="@+id/i4"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="166dp"
+        android:layout_marginRight="100dp"
+        android:text="0:30"
+        android:textColor="@color/green"
+        android:textSize="15dp"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/edit_shape"
+        android:text="Submit"
+        >
+    </Button>
+
+
+
+</RelativeLayout>

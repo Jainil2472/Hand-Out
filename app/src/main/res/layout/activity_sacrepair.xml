@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".S_acrepair">
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC Service and Repair"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Hindustan AC Service"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ac_hindustan"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.7/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : Deep Clen ,
+                                Gas Refeal,
+  componant clean-repair-change"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/ac_call"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="Add : shop no 7, pramukh arcad Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Nilkhanth AC"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ac_nilkhant"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.0/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : Deep Clen ,
+                                Gas Refeal,"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/ac_call1"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="Add : shop no 21, Silver Chowk Gandhinagar 382025"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Pramukh AC Service"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ac_pramukh"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.7/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : Deep Clen ,
+                    componant clean-repair-change"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/ac_call2"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="Add : 213, Royal Building Gandhinagar 382024"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mahaveer AC Service"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ac_mahavir"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 4.1/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : Deep Clen ,
+                                Gas Refeal,
+  componant clean-repair-change"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/ac_call3"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="Add : 21- Meena Bazar Gandhinagar 382027"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Vaibhavi ACs"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ac_vaibhavi"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Rating : 3.8/5"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Services : Deep Clen ,
+                                Gas Refeal,
+  componant clean-repair-change"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="150dp"
+                    android:text="Mobile : 7486960455"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/ac_call4"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginRight="50dp"
+                    android:text="call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="185dp"
+                    android:text="Add : shop no 11, ShikshaPatri Gandhinagar 382027"
+                    android:textSize="20dp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="HandOut"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Post_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".S_acrepair"
+            android:exported="false" />
+        <activity
+            android:name=".S_tiffin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".H_Rohouse"
+            android:exported="false" />
+        <activity
+            android:name=".H_Bunglows"
+            android:exported="false" />
+        <activity
+            android:name=".H_Flats"
+            android:exported="false" />
+        <activity
+            android:name=".H_singleroom"
+            android:exported="false" />
+        <activity
+            android:name=".S_Electrician"
+            android:exported="false" />
+        <activity
+            android:name=".S_plumber"
+            android:exported="false" />
+        <activity
+            android:name=".S_Appliance"
+            android:exported="false" />
+        <activity
+            android:name=".locationchoose"
+            android:exported="false" />
+        <activity
+            android:name=".submit_otp"
+            android:exported="false" />
+        <activity
+            android:name=".otp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splasscreen"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
